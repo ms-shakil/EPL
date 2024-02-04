@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.epl.startPage">
+   <children>
+      <ImageView fx:id="startingImageView" fitHeight="338.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../Image/Capture.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="239.0" layoutY="349.0" mnemonicParsing="false" onAction="#startButtonAction" prefHeight="37.0" prefWidth="122.0" style="-fx-background-color: #6495ED;" text="Get Started">
+         <font>
+            <Font name="Felix Titling" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

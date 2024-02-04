@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.epl.registerPage">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="280.0" style="-fx-background-color: #B0C4DE;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <children>
+            <Button fx:id="newregisterButton" layoutX="87.0" layoutY="218.0" mnemonicParsing="false" onAction="#registerAction" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: #6495ED;" text="Register" />
+            <TextField fx:id="usernameText" alignment="CENTER" layoutX="71.0" layoutY="55.0" promptText="Username" />
+            <TextField fx:id="emailText" alignment="CENTER" layoutX="71.0" layoutY="94.0" promptText="Email Address" />
+            <TextField fx:id="passwordText" alignment="CENTER" layoutX="71.0" layoutY="132.0" promptText="Password" />
+            <TextField fx:id="confirmPasswordText" alignment="CENTER" layoutX="71.0" layoutY="169.0" promptText="Confirm password" />
+            <Hyperlink layoutX="124.0" layoutY="254.0" text="sign in" textFill="#5770c2" />
+            <Label layoutX="102.0" layoutY="14.0" text="Register">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="286.0" text="By clicking register, you agree with our">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="192.0" layoutY="283.0" text="Privacy Policy">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="151.0" style="-fx-background-color: #D3D3D3;" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="159.0" style="-fx-background-color: #D3D3D3;" BorderPane.alignment="CENTER" />
+   </right>
+   <top>
+      <AnchorPane prefHeight="47.0" prefWidth="600.0" style="-fx-background-color: #D3D3D3;" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #D3D3D3;" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
